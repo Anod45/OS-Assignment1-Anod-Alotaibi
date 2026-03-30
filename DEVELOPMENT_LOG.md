@@ -13,88 +13,105 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Example Entry Format:
 
-### Entry 1 - [April 1, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+### Entry 1 - [March 29, 2026, 10:30 PM]
+**What I did**: Started working on the assignment and understanding the code
 
 **Details**: 
-- Created GitHub account with university email
-- Forked the starter repository
-- Changed student ID on line 92 to my actual ID (441234567)
-- Compiled and ran the program successfully
 
-**Challenges**: Had to install JDK first because javac wasn't recognized
 
-**Solution**: Downloaded JDK 17 from Oracle website and set PATH variable
+**Challenges**: Difficulty understanding thread lifecycle
 
-**Time spent**: 30 minutes
+**Solution**:
+
+**Time spent**: 
 
 ---
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [[March 29, 2026, 10:30 PM]]
+**What I did**:Started working on the assignment and understanding the code
 
 **Details**: 
+-Reviewed Process class and SchedulerSimulation
+-Understood how Round-Robin scheduling works
+-Ran the code for the first time
 
-**Challenges**: 
+**Challenges**:Difficulty understanding thread lifecycle
 
-**Solution**: 
+**Solution**: Watched a short tutorial and understood the difference
 
-**Time spent**: 
+**Time spent**: 3 hours
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 30, 2026, 4:00 AM]
+**What I did**: Implemented Feature 1 (Process Priority)
 
 **Details**: 
+Added priority field
+Generated random values
+Displayed priority in output
+**Challenges**: Integrating without breaking existing code
 
-**Challenges**: 
+**Solution**: Carefully added changes step by step
 
-**Solution**: 
-
-**Time spent**: 
+**Time spent**:  hours
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 30, 2026, 5:00 Am]
+**What I did**: Implemented Feature 2 (Context Switch Counter)
 
 **Details**: 
+Added static counter
+Incremented before thread execution
+Displayed result at the end
+**Challenges**: Choosing correct place to increment counter
 
-**Challenges**: 
+**Solution**: Added before start() call
 
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 1.5 hours
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [March 30, 2026, 5:30 am]
+**What I did**:Implemented Feature 3 (Waiting Time Tracking) 
 
 **Details**: 
+Added time tracking fields
+Used System.currentTimeMillis()
+Calculated waiting time
 
-**Challenges**: 
+**Challenges**: Getting accurate waiting time
 
-**Solution**: 
+**Solution**: Updated values inside run()
 
-**Time spent**: 
+**Time spent**: 1hours
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 5 - [March 30, 2026, 6:00 am]
+**What I did**: Testing and finalizing assignment
 
 **Details**: 
+Verified all features
+Checked output correctness
+Completed documentation
+**Challenges**: Debugging small issues
 
-**Challenges**: 
+**Solution**: Used print statements
 
-**Solution**: 
+**Time spent**: 1hours
+Summary
 
-**Time spent**: 
+Total time spent on assignment: 3days
 
+Most challenging part: Waiting time tracking
+
+Most interesting learning: Understanding thread lifecycle and scheduling
+
+What I would do differently next time: Start earlier and plan features more clearly
 ---
 
 ### Entry 6 - [Optional - Date and Time]
